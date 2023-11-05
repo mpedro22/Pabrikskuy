@@ -1,0 +1,103 @@
+{
+	"user": [
+		{
+			"iduser": 1,
+			"nama": "PT. Asoy",
+			"alamat": "Jl. Asoy 1",
+			"email": "ptasoy@gmail.com",
+			"NoTelp": "081212123331",
+			"Password": "asoyasoyasoy"
+		},
+		{
+			"iduser": 2,
+			"nama": "PT. Skuy",
+			"alamat": "Jl. Skuy 2",
+			"email": "ptskuy@gmail.com",
+			"NoTelp": "081212123332",
+			"Password": "skuyskuyskuy"
+		},
+		{
+			"iduser": 3,
+			"nama": "PT. Gas",
+			"alamat": "Jl. Gas 3",
+			"email": "ptgas@gmail.com",
+			"NoTelp": "081212123333",
+			"Password": "gasgasgas"
+		},
+		{
+			"iduser": 4,
+			"nama": "PT. Banyak",
+			"alamat": "Jl. Banyak 3",
+			"email": "ptbanyak@gmail.com",
+			"NoTelp": "081212123334",
+			"Password": "banyakbanyakbanyak"
+		}
+	],
+	"item": [
+		{
+			"iditem": 11,
+			"nama": "Bosch GCO 2000",
+			"kategori": "Mesin Potong",
+			"harga": 2000000,
+			"jumlah": 30
+		},
+		{
+			"iditem": 12,
+			"nama": "CNR MIG 500",
+			"kategori": "Mesin Las",
+			"harga": 18000000,
+			"jumlah": 25
+		},
+		{
+			"iditem": 13,
+			"nama": "CBFI BF10000",
+			"kategori": "Mesin Produksi",
+			"harga": 100000000,
+			"jumlah": 10
+		},
+		{
+			"iditem": 14,
+			"nama": "Pipa Swaging",
+			"kategori": "Mesin Potong",
+			"harga": 18000000,
+			"jumlah": 10
+		},
+		{
+			"iditem": 55,
+			"nama": "Roti 122",
+			"kategori": "Mesin Produksi",
+			"harga": 5000000,
+			"jumlah": 10
+		}
+	],
+	"order": [
+		{
+			"idorder": 111,
+			"iduser": 1,
+			"iditem": 11,
+			"tanggalpesan": "01/10/2023",
+			"statuspesan": "Sedang dikirim"
+		},
+		{
+			"idorder": 222,
+			"iduser": 2,
+			"iditem": 12,
+			"tanggalpesan": "02/10/2023",
+			"statuspesan": "Sedang dikirim"
+		},
+		{
+			"idorder": 333,
+			"iduser": 3,
+			"iditem": 13,
+			"tanggalpesan": "03/10/2023",
+			"statuspesan": "Sudah sampai"
+		},
+		{
+			"idorder": 444,
+			"iduser": 4,
+			"iditem": 14,
+			"tanggalpesan": "04/10/2023",
+			"statuspesan": "Sudah sampai"
+		}
+	]
+}
